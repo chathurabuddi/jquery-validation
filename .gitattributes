@@ -3,3 +3,22 @@
 
 # JS files must stay in LF for JSCS/jQuery Styleguide
 *.js eol=lf
+
+.* export-ignore
+bower.json export-ignore
+changelog.md export-ignore
+component.json export-ignore
+composer.json export-ignore
+CONTRIBUTING.md export-ignore
+Gruntfile.js export-ignore
+LICENSE.md export-ignore
+package.json export-ignore
+package-lock.json export-ignore
+README.md export-ignore
+validation.jquery.json export-ignore
+build export-ignore
+demo export-ignore
+lib export-ignore
+node_modules export-ignore
+src export-ignore
+test export-ignore
