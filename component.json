@@ -1,0 +1,22 @@
+{
+  "name": "jquery-validation",
+  "repo": "chathurabuddi/jquery-validation",
+  "description": "Form validation with jQuery",
+  "homepage": "https://jqueryvalidation.org/",
+  "version": "1.19.1-pre",
+  "keywords": [
+    "jquery",
+		"jquery-plugin",
+		"forms",
+		"validation",
+		"validate"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "components/jquery": ">=1.7"
+  },
+  "main": "dist/jquery.validate.js",
+  "scripts": [
+    "dist/jquery.validate.js"
+  ]
+}
