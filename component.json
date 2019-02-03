@@ -3,7 +3,6 @@
   "repo": "chathurabuddi/jquery-validation",
   "description": "Form validation with jQuery",
   "homepage": "https://jqueryvalidation.org/",
-  "version": "1.19.1-pre",
   "keywords": [
     "jquery",
 		"jquery-plugin",
