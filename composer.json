@@ -1,0 +1,44 @@
+{
+  "name": "chathurabuddi/jquery-validation",
+  "type": "component",
+  "description": "The jQuery Validation Plugin provides drop-in validation for your existing forms, while making all kinds of customizations to fit your application really easy.",
+  "keywords": [
+    "jquery",
+		"jquery-plugin",
+		"forms",
+		"validation",
+		"validate"
+  ],
+  "authors": [
+    {
+      "name": "Jörn Zaefferer",
+      "email": "joern.zaefferer@gmail.com",
+      "homepage": "http://bassistance.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/jquery-validation/jquery-validation/issues",
+    "source": "https://github.com/jquery-validation/jquery-validation.git"
+  },
+  "homepage": "http://jqueryvalidation.org/",
+  "license": "MIT",
+  "require": {
+    "robloach/component-installer": "*",
+    "components/jquery": ">=1.7"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "component": {
+      "scripts": [
+        "dist/jquery.validate.js"
+      ],
+      "files": [
+        "js/bootstrap.min.js"
+      ],
+      "shim": {
+        "deps": ["jquery"]
+      }
+    }
+  }
+}
